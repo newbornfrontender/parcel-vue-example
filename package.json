@@ -1,0 +1,16 @@
+{
+  "name": "parcel-vuejs-example",
+  "description": "Simple Vue.js example",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel index.html --open"
+  },
+  "dependencies": {
+    "vue": "^2.5.10"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-vue": "^2.0.0",
+    "parcel-bundler": "^1.2.0"
+  }
+}
