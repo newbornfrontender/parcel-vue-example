@@ -1,7 +1,7 @@
 {
-  "name": "parcel-vuejs-example",
+  "name": "parcel-vue-example",
   "version": "1.0.3",
-  "description": "Простой Vue.js пример",
+  "description": "Простой Vue пример",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html --out-dir build"
