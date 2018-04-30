@@ -1,2 +1,2 @@
-# parcel-vuejs-example
-Простой Vue.js пример
+# parcel-vue-example
+Простой Vue пример
