@@ -1,7 +1,7 @@
 {
   "name": "parcel-vuejs-example",
-  "version": "1.0.1",
-  "description": "Simple Vue.js example",
+  "version": "1.0.3",
+  "description": "Простой Vue.js пример",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html --out-dir build"
@@ -12,7 +12,10 @@
   },
   "keywords": [
     "parcel",
-    "vue"
+    "vue",
+    "posthtml",
+    "postcss",
+    "babel"
   ],
   "author": "Infant Frontender",
   "license": "ISC",
@@ -24,11 +27,32 @@
     "vue": "^2.5.16"
   },
   "devDependencies": {
+    "babel-core": "^6.26.3",
     "babel-preset-env": "^1.6.1",
     "babel-preset-vue": "^2.0.2",
-    "parcel-bundler": "^1.7.1"
+    "cssnano": "^4.0.0-rc.2",
+    "cssnano-preset-advanced": "^4.0.0-rc.2",
+    "cssnano-preset-default": "^4.0.0-rc.2",
+    "htmlnano": "^0.1.9",
+    "parcel-bundler": "^1.7.1",
+    "postcss-import": "^11.1.0",
+    "postcss-less": "^1.1.5",
+    "postcss-modules": "^1.1.0",
+    "postcss-nested": "^3.0.0",
+    "postcss-prettify": "^0.3.4",
+    "postcss-scss": "^1.0.5",
+    "postcss-strip-inline-comments": "^0.1.5",
+    "posthtml-attrs-sorter": "^1.1.0",
+    "posthtml-beautify": "^0.2.0",
+    "posthtml-bem": "^0.2.2",
+    "posthtml-doctype": "^1.1.1",
+    "posthtml-include": "^1.1.0"
   },
+  "cacheDirectories": [
+    "node_modules"
+  ],
   "engines": {
-    "node": "9.11.1"
+    "node": "9.11.1",
+    "npm": "6.0.0"
   }
 }
