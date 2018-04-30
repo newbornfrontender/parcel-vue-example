@@ -5,7 +5,7 @@ new Vue({
   el: '#app',
   template: `
     <div id="app">
-      <h1>Hello Parcel 📦 🚀</h1>
+      <h1><span>Hello Parcel</span> 📦 🚀</h1>
     </div>
   `
 })
@@ -20,5 +20,7 @@ new Vue({
     </div>
   `
 })
+
+console.log(`Parcel running in ${process.env.NODE_ENV} mode`)
 
 module.hot && module.hot.accept()
