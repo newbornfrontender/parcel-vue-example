@@ -21,6 +21,12 @@ body {
 
 h1 {
   font-weight: bold;
+
+  span {
+    text-shadow:
+      2px 2px 0 blanchedalmond,
+      4px 4px 0 #000;
+  }
 }
 
 #cite {
@@ -31,7 +37,34 @@ h1 {
   background-color: darkkhaki;
 }
 
+/* This comment will remain */
+// This comment will be removed
 blockquote {
   font-size: 34px;
   color: coral;
+}
+
+/* This comment will remain */
+// This comment will be removed
+.block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__element {
+    height: 100%;
+    box-sizing: border-box;
+
+    &--modifier {
+      padding: 15px;
+      background-color: peru;
+      border-radius: 10px;
+    }
+
+    &--big--red {
+      font-size: 30px;
+      font-weight: bold;
+      color: red;
+    }
+  }
 }
