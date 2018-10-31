@@ -50,9 +50,5 @@
   },
   "cacheDirectories": [
     "node_modules"
-  ],
-  "engines": {
-    "node": "9.11.1",
-    "npm": "6.0.0"
-  }
+  ]
 }
